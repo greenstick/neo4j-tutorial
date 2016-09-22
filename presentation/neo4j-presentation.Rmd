@@ -1,0 +1,91 @@
+---
+title: "Neo4j and DREAM Challenge"
+subtitle: "BioDSP Presentation"
+author: "Ben Cordier, Eric Leung, Ian Stavros"
+date: "October 20th, 2016"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## What is Neo4j?
+
+> "Neo4j is a highly scalable, native graph database purpose-built to leverage
+> not only data but also its relationships."
+
+![](./images/neo4j-logo.png)
+
+### Features
+
+- NoSQL graph database
+- Uses Cypher query language instead of SQL
+- Native property graph model
+- Flexible schema
+
+
+## How to Install Neo4j
+
+### GUI Version
+
+Visit https://neo4j.com/download/
+
+Click on "Download Community Edition"
+
+**Note**: Windows, Linux, and Mac friendly
+
+### Command Line Version
+
+Use Homebrew
+
+```shell
+brew install neo4j
+```
+
+
+## How to Start Neo4j
+
+![](./images/neo4j-start.png)
+
+
+## How to Start Neo4j
+
+![](./images/neo4j-running.png)
+
+
+## How to Use Neo4j
+
+### Use Neo4j's native graph query language, Cypher
+
+### Use REST API
+
+- For R: `RNeo4j`
+- For Python: `<INSERT PKGE>`
+- Also available for Java, Ruby, PHP, and others
+
+## What are the DREAM Challenges?
+
+> "DREAM Challenges pose fundamental questions about systems biology and
+> translational medicine."
+
+![](./images/dream-logo.png)
+
+>
+
+![](./images/sage-logo-gray.png)
+
+
+## Disease Module Identification
+
+<img src="./images/dream-banner.jpg" style="width: 100%">
+
+### Sub-Challenges
+
+1. Module identification for individual networks
+2. Module identification across multiple networks
+
+
+## Disease Module Identification
+
+<img src="./images/subchallenges-sketch.png" style="width: 100%">
