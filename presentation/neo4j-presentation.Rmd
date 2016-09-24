@@ -75,6 +75,11 @@ brew install neo4j
 
 ![](./images/sage-logo-gray.png)
 
+### DREAM Acronym
+
+**D**ialogue for **R**everse **E**ngineering **A**ssessment and
+**M**ethods
+
 
 ## Disease Module Identification
 
