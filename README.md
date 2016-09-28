@@ -18,11 +18,11 @@ Alternatively, you can use a GUI-based git client such as [SourceTree](https://w
 If you don't have git setup, [click here](https://github.com/greenstick/neo4j-tutorial/archive/master.zip) to download a zip of the repository.
 
 ### Installing Jupyter Notebook
-If you don't have Jupyter Notebook installed, go ahead and download it. 
+If you don't have Jupyter Notebook installed, go ahead and download it using pip. 
 ```
 pip install notebook
 ```
-*Note: While it's not strictly required, the alternative will be to copy and paste code blocks from the Jupyter Notebook file (neo4j-tutorial.ipynb) to a Python script and run it through your terminal or IDE.*
+*Note: While it's not strictly required, the alternative is to copy and paste code blocks from the Jupyter Notebook file ([view neo4j-tutorial.ipynb on GitHub](https://github.com/greenstick/neo4j-tutorial/blob/master/neo4j-tutorial.ipynb)) to a Python script and run it through your terminal or IDE.*
 
 Next, if you haven't already, you'll need to install Neo4j and get access to the data we'll be using. To do this, access the instructions and the rest of the tutorial by loading up the Jupyter Notebook. Type the following command into your terminal:
 ```
