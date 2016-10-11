@@ -64,6 +64,38 @@ brew install neo4j
 - For Python: `py2neo`
 - Also available for Java, Ruby, PHP, and others
 
+
+## Cypher Query Language
+
+Similar to SQL language
+
+"Nodes" are surrounded by parentheses
+
+Arrows (`-->`) represent (directed) relationships
+
+![](./images/cypher.png)
+
+
+## Cypher Query Language
+
+Clauses are chained together like pipes
+
+Common commands:
+
+- `MATCH`: graph pattern to match
+- `WHERE`: constraints
+- `RETURN`: what you want to return
+
+Example:
+
+```cypher
+MATCH (user)-[:friend]->(follower)
+WHERE user.name IN ['Joe', 'John', 'Sara', 'Maria', 'Steve']
+    AND follower.name =~ 'S.*'
+RETURN user.name, follower.name
+```
+
+
 ## What are the DREAM Challenges?
 
 > "DREAM Challenges pose fundamental questions about systems biology and
