@@ -61,7 +61,7 @@ brew install neo4j
 ### Use REST API
 
 - For R: `RNeo4j`
-- For Python: `<INSERT PKGE>`
+- For Python: `py2neo`
 - Also available for Java, Ruby, PHP, and others
 
 ## What are the DREAM Challenges?
