@@ -94,3 +94,17 @@ brew install neo4j
 ## Disease Module Identification
 
 <img src="./images/subchallenges-sketch.png" style="width: 100%">
+
+## Resources
+
+### Cypher Query Language
+
+- "What is Cypher" in Neo4j Manual http://neo4j.com/docs/developer-manual/current/cypher/
+- Neo4j Cypher Cheatsheet http://neo4j.com/docs/2.2.5/cypher-refcard/
+- Neo4j GraphGists https://neo4j.com/graphgists/
+
+### Neo4j Developer Resources
+
+- Neo4j from R https://neo4j.com/developer/r/
+- Neo4j from Python https://neo4j.com/developer/python/
+- Other languages https://neo4j.com/developer/language-guides/
