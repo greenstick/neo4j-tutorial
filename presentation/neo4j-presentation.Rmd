@@ -61,8 +61,40 @@ brew install neo4j
 ### Use REST API
 
 - For R: `RNeo4j`
-- For Python: `<INSERT PKGE>`
+- For Python: `py2neo`
 - Also available for Java, Ruby, PHP, and others
+
+
+## Cypher Query Language
+
+Similar to SQL language
+
+"Nodes" are surrounded by parentheses
+
+Arrows (`-->`) represent (directed) relationships
+
+![](./images/cypher.png)
+
+
+## Cypher Query Language
+
+Clauses are chained together like pipes
+
+Common commands:
+
+- `MATCH`: graph pattern to match
+- `WHERE`: constraints
+- `RETURN`: what you want to return
+
+Example:
+
+```cypher
+MATCH (user)-[:friend]->(follower)
+WHERE user.name IN ['Joe', 'John', 'Sara', 'Maria', 'Steve']
+    AND follower.name =~ 'S.*'
+RETURN user.name, follower.name
+```
+
 
 ## What are the DREAM Challenges?
 
@@ -85,12 +117,39 @@ brew install neo4j
 
 <img src="./images/dream-banner.jpg" style="width: 100%">
 
+Module - A set of standardized parts or independent units used to construct a more complex structure
+
 ### Sub-Challenges
 
 1. Module identification for individual networks
 2. Module identification across multiple networks
 
 
+## Why is Module detection important?
+
+### 1. Reveal underlying properties of complex networks
+### 3. How networks evolve and how components interact
+
+### In This Case
+
+1. Assessment of biological relevance of modules for genomic pathways
+2. Pre-annotated functional gene sets still largely incomplete and biased towards well-studied pathways.
+
+
 ## Disease Module Identification
 
 <img src="./images/subchallenges-sketch.png" style="width: 100%">
+
+## Resources
+
+### Cypher Query Language
+
+- "What is Cypher" in Neo4j Manual http://neo4j.com/docs/developer-manual/current/cypher/
+- Neo4j Cypher Cheatsheet http://neo4j.com/docs/2.2.5/cypher-refcard/
+- Neo4j GraphGists https://neo4j.com/graphgists/
+
+### Neo4j Developer Resources
+
+- Neo4j from R https://neo4j.com/developer/r/
+- Neo4j from Python https://neo4j.com/developer/python/
+- Other languages https://neo4j.com/developer/language-guides/
