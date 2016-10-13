@@ -117,10 +117,23 @@ RETURN user.name, follower.name
 
 <img src="./images/dream-banner.jpg" style="width: 100%">
 
+Module - A set of standardized parts or independent units used to construct a more complex structure
+
 ### Sub-Challenges
 
 1. Module identification for individual networks
 2. Module identification across multiple networks
+
+
+## Why is Module detection important?
+
+### 1. Reveal underlying properties of complex networks
+### 3. How networks evolve and how components interact
+
+### In This Case
+
+1. Assessment of biological relevance of modules for genomic pathways
+2. Pre-annotated functional gene sets still largely incomplete and biased towards well-studied pathways.
 
 
 ## Disease Module Identification
