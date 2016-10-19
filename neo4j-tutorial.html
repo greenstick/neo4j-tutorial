@@ -11831,7 +11831,7 @@ div#notebook {
 <span class="k">try</span><span class="p">:</span>
     <span class="nb">eval</span><span class="p">(</span><span class="s2">&quot;print(</span><span class="se">\&quot;</span><span class="s2"> </span><span class="se">\\</span><span class="s2">nThis Notebook is Running on Python Version: </span><span class="si">%s</span><span class="se">\&quot;</span><span class="s2"> % version)&quot;</span><span class="p">)</span>
 <span class="k">except</span><span class="p">:</span>
-    <span class="nb">exec</span><span class="p">(</span><span class="s2">&quot;print </span><span class="se">\&quot;</span><span class="s2"> </span><span class="se">\\</span><span class="s2">nThis Notebook is Running on Python Version: </span><span class="si">%s</span><span class="se">\&quot;</span><span class="s2"> % version&quot;</span><span class="p">)</span>
+    <span class="n">exec</span><span class="p">(</span><span class="s2">&quot;print </span><span class="se">\&quot;</span><span class="s2"> </span><span class="se">\\</span><span class="s2">nThis Notebook is Running on Python Version: </span><span class="si">%s</span><span class="se">\&quot;</span><span class="s2"> % version&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -11872,11 +11872,12 @@ This Notebook is Running on Python Version: 3.5.2
 <td style="text-align:center"><code>print("oink")</code>   </td>
 </tr>
 <tr>
-<td> <code>pip install woof</code></td>
-<td style="text-align:center"><code>pip3 install woof</code></td>
+<td> <code>pip install bark</code></td>
+<td style="text-align:center"><code>pip3 install bark</code></td>
 </tr>
 </tbody>
 </table>
+<p>In addition, if you're running Python 2.7.9 there is a known limitation: you will be unable to connect to Neo4j using the Bolt protocol (this is the protocol developed &amp; optimized for Neo4j). Specifically, this means that the part of the tutorial using the Neo4j-driver middleware will not function for you.</p>
 <p><strong><span style="color: red;">Caveat:</span></strong> <em>It is possible that if you only have a Python3 installation, you will not need to use <code>pip3</code> in place of <code>pip</code>.</em></p>
 
 </div>
