@@ -10,6 +10,38 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## What are Databases?
+
+**Databases** are organized collections of data.
+
+**Relational databases** are where data are stored in spreadsheet-like
+structures.
+
+![](./images/relational-database-chart.jpg)
+
+
+## We Use Query Languages to Ask Databases for Data
+
+The query language for relational databases is **SQL**, or Structured Query
+Language.
+
+```sql
+SELECT *
+FROM  Book
+WHERE price > 100.00
+ORDER BY title;
+```
+
+
+## Spread of NoSQL Databases
+
+Different non-spreadsheet-like databases structures are becoming popular.
+
+These are collectively known as **NoSQL databases**.
+
+![](./images/nosql.png)
+
+
 ## What is Neo4j?
 
 > "Neo4j is a highly scalable, native graph database purpose-built to leverage
