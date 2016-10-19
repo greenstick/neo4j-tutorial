@@ -1,1 +1,4 @@
 data/*
+presentation/*.html
+.Rhistory
+.DS_Store
