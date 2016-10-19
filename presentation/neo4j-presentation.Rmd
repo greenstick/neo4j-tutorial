@@ -185,3 +185,12 @@ Module - A set of standardized parts or independent units used to construct a mo
 - Neo4j from R https://neo4j.com/developer/r/
 - Neo4j from Python https://neo4j.com/developer/python/
 - Other languages https://neo4j.com/developer/language-guides/
+
+
+## Image Sources
+
+- Spreadsheet http://s.hswstatic.com/gif/relational-database-chart.jpg
+- List NoSQL http://sqrrl.com/media/NoSQL-Comparison-Graphic.png
+- Neo4j Logo https://neo4j.com/wp-content/themes/neo4jweb/assets/images/neo4j-logo-2015.png
+- Cypher Illustration https://neo4j.com/developer/cypher-query-language/
+- Dream Challenges Associated Images http://dreamchallenges.org/
