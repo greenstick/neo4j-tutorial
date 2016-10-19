@@ -11831,7 +11831,7 @@ div#notebook {
 <span class="k">try</span><span class="p">:</span>
     <span class="nb">eval</span><span class="p">(</span><span class="s2">&quot;print(</span><span class="se">\&quot;</span><span class="s2"> </span><span class="se">\\</span><span class="s2">nThis Notebook is Running on Python Version: </span><span class="si">%s</span><span class="se">\&quot;</span><span class="s2"> % version)&quot;</span><span class="p">)</span>
 <span class="k">except</span><span class="p">:</span>
-    <span class="nb">eval</span><span class="p">(</span><span class="s2">&quot;print </span><span class="se">\&quot;</span><span class="s2"> </span><span class="se">\\</span><span class="s2">nThis Notebook is Running on Python Version: </span><span class="si">%s</span><span class="se">\&quot;</span><span class="s2"> % version&quot;</span><span class="p">)</span>
+    <span class="nb">exec</span><span class="p">(</span><span class="s2">&quot;print </span><span class="se">\&quot;</span><span class="s2"> </span><span class="se">\\</span><span class="s2">nThis Notebook is Running on Python Version: </span><span class="si">%s</span><span class="se">\&quot;</span><span class="s2"> % version&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
